@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,44 @@
   to {
     transform: rotate(360deg);
   }
+} */
+.App{
+  display: flex;
+  justify-content: space-between;
+  /* margin-top: 30px; */
+  border-bottom: 1px solid pink;
+}
+.in{
+  display: flex;
+  /* padding-left: 20px; */
+  justify-content: space-between;
+  /* border: 1px solid red; */
+  width: 50%;
+  margin-left: 20px;
+  /* padding-top: 10px; */
+}
+.logo{
+  padding-top: 7px;
+  color: black;
+
+}
+.sign{
+  /* border: 1px solid red; */
+  width:15%;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 20px;
+  /* height: 50px; */
+  /* margin: auto; */
+}
+.signin{
+  margin-top: 7px;
+}
+.button{
+  margin: auto;
+  border:1px solid red;
+
+  width: 80px;
+  /* margin-top: 5px; */
+  /* margin-bottom: 5px; */
 }
